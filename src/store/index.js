@@ -2,7 +2,7 @@ import { createBrowserHistory } from 'history';
 import { applyMiddleware, compose, createStore } from 'redux';
 import { routerMiddleware } from 'connected-react-router';
 
-import createRootReducer from '../reducers';
+import createRootReducer from './reducer';
 
 export const history = createBrowserHistory();
 

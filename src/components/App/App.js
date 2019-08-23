@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { ConnectedRouter } from 'connected-react-router';
-import routes from './routes' 
+import routes from 'routes' 
 
 
 const App = ({history}) => {
